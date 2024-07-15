@@ -1,9 +1,7 @@
-export default function WeatherApi() {
+export default function WeatherApi({city}) {
   return fetch(
-    `https://api.openweathermap.org/data/2.5/weather?q=Rostov,ua&appid=f0f3a5df2608a399b4c97723fbdd30a7&units=metric`
+    `https://api.weatherapi.com/v1/current.json?key=e34759cd105b48cea3775556241507&q=${city}&aqi=no`
   ).then((res) => {
-    console.log(res);
-
-    return res.json();
+    console.log(res.json());
   });
 }
