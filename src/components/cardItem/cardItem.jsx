@@ -28,7 +28,6 @@ export default function CardItem() {
         placeholder="Введите город"
         type="text"
       />
-
       {data ? (
         <div className="weather">
           <h1 className="weather__city">Город: {data.location.name}</h1>
