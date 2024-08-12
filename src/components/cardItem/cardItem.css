@@ -1,0 +1,32 @@
+.weather{
+    background: white;
+	
+}
+.weather__city_title{
+    color: rgb(31, 172, 185);
+}
+.weather__city_input{
+    width: 300px;
+	display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    margin-bottom: 10px;
+}
+.weather__card{
+     background: white;
+	border: 2px solid #cecece;
+	border-radius: 15px;
+	padding: 5px;
+    width: 300px;
+    text-align: center;
+}
+.weather__btn{
+   width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #8dcfdc;
+}
